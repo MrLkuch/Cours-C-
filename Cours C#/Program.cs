@@ -1,4 +1,6 @@
-﻿#region Functions
+﻿using Cours_C_.Classes;
+
+#region Functions
 // Functions (locales) en C#;
 
 // static void Fonction(){};
@@ -69,3 +71,9 @@ Console.WriteLine(Addition(3, 5));
 // les membres des données et les fonctiosn ou méthodes associées à une classe ou à un objet instancié
 
 #endregion
+
+
+Voiture maVoiture = new Voiture("Clio", "Grise", 70, 800);
+
+Voiture saVoiture;
+
