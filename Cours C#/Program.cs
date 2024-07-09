@@ -1,4 +1,5 @@
-﻿// Functions (locales) en C#;
+﻿#region Functions
+// Functions (locales) en C#;
 
 // static void Fonction(){};
 //        <type de retour> <nom de la fonction><parametre><instructions>
@@ -31,3 +32,33 @@ int Addition(int a, int b)
 }
 
 Console.WriteLine(Addition(3, 5));
+
+#endregion
+
+#region classes
+
+// un objet est l'instance d'une classe. C&d un élément qui possède
+// les caracteristiques et les comportements définis par la classe.
+// ex : Une Tesla rouge
+
+// Une Classe: un modèle qui décrit les caractérisque et
+// les comportments communs d'un ensemble d'objets
+// Ex: Voiture
+
+// Méthode : fonction associée à une classe ou à un objet qui défini un comportement spécifique
+// Accelerer();
+
+// Propriété: attribut associé à un objet ou une classe qui définit un caractéristique spécifique
+// Ex: Couleur
+
+// Une classe est un type de donnée                 - Un objet est une instance de classe
+// Génère des objets                                - Donne vie à une classe
+// N'occupe pas d'espaces en mémoire                - Occupe de l'espace mémoire
+// Ne peut pas être manipulé (sauf static)          - Peut être manipulé
+
+
+// La class Program est une classe particulière car elle contient la méthode "MAIN()" c'est le point d'entrée de notre application
+
+// les classes s'écrivent en PascalCase !
+
+#endregion
