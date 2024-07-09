@@ -57,8 +57,15 @@ Console.WriteLine(Addition(3, 5));
 // Ne peut pas être manipulé (sauf static)          - Peut être manipulé
 
 
-// La class Program est une classe particulière car elle contient la méthode "MAIN()" c'est le point d'entrée de notre application
+// La class Program est une classe particulière car elle contient la méthode "MAIN()"
+// c'est le point d'entrée de notre application
 
 // les classes s'écrivent en PascalCase !
+
+// Encapsulation:
+// L'encapsulation est un moyen de restreindre l'accès direct à certains composant de l'objet,
+// de sorte que l'utilisateur ne peut acceder aux valeurs d'état de toutes les variables d'un objet en particulier
+// L'encapsulation peut être utilisée pour masquer à la fois
+// les membres des données et les fonctiosn ou méthodes associées à une classe ou à un objet instancié
 
 #endregion
